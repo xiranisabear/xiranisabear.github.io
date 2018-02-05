@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="MashUp02.css" />
+<title> Higher Brothers</title>
+</head>
+
+<body>
+<div class = "container">
+<button class="button" value="PLAY"  onclick="play()">Listen To Their Hottest Track</button>
+<div class = "title">
+<header> Higher Brothers World Wide </header>
+
+</div>
+
+  <div class = "masiwei">
+    <img src="masiwei.gif" alt="Masiwei">
+    <div id = "masiwei-name">MASIWEI</div>
+  </div>
+    <div class= "knowknow"><img src="knowknow.gif" alt="DZ Know">
+      <div id = "knowknow-name">DZ KNOW</div>
+    </div>
+      <div class = "psyp"><img src="psyp.gif" alt="Psy.P">
+      <div id = "psyp-name">PSY.P</div></div>
+        <div class = "melo"><img src="melo.gif" alt="Melo">
+        <div id = "melo-name">MELO</div></div>
+
+<audio id ="audio" src = "HigherBrothers.mp3">
+</audio>
+<script>
+ function play(){
+      var audio = document.getElementById("audio");
+      audio.play();
+                }
+  </script>
+
+
+</div>
+
+</body>
+
+</html>

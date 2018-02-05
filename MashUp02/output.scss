@@ -1,0 +1,110 @@
+text-shadowcolor: #ff0000;
+body{
+background-image: url("sayhellotohb.jpeg");
+ background-size: 300px 180px;
+
+}
+.container{
+position: absolute;
+left: 100px;
+right:100px;
+overflow:hidden;
+}
+
+.title{
+  font-family: "Blazed";
+  text-shadow: 2px 2px #ff0000;
+  position:static;
+  padding: 20px 30px;
+  text-align: center;
+  top:30%;
+  color:#9900cc;
+ font-weight:bold;
+ font-size:50px;
+}
+
+.masiwei{
+  position:fixed;
+  top:35%;
+  left:8%;
+}
+#masiwei-name{
+
+  position: absolute;
+  font-weight:bold;
+  text-shadow: 1px 1px #ff0000;
+  color:#ffca00;
+  font-size:20px;
+    bottom: 8px;
+    left: 16px;
+}
+.knowknow{
+  position:fixed;
+  top:35%;
+  right:8%;
+}
+
+#knowknow-name{
+
+  position: absolute;
+  font-weight:bold;
+  text-shadow: 1px 1px #ff0000;
+  color:#ffca00;
+  font-size:20px;
+    bottom: 8px;
+    right: 16px;
+}
+
+.melo{
+  position:fixed;
+  top:70%;
+  left:8%;
+}
+
+#melo-name{
+
+  position: absolute;
+  font-weight:bold;
+  text-shadow: 1px 1px #ff0000;
+  color:#ffca00;
+  font-size:20px;
+    bottom: 8px;
+    left: 16px;
+}
+
+.psyp{
+  position:fixed;
+  top:70%;
+  right:8%;
+}
+
+#psyp-name{
+
+  position: absolute;
+  font-weight:bold;
+  text-shadow: 1px 1px #ff0000;
+  color:#ffca00;
+  font-size:20px;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+.button {
+    position: fixed;
+    background-color: #ff0000;
+    width: 300px;
+    margin:0 auto;
+    left:38%;
+    top:22%;
+    text-align: center;
+    border: none;
+    color: #ffca00;
+    padding: 10px 32px;
+
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+
+    cursor: pointer;
+}
